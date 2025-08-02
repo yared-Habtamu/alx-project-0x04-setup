@@ -1,3 +1,5 @@
+["increment: () => void;", "decrement: () => void;"]
+
 import { createContext, useContext,  useState, ReactNode } from "react"
 
 interface CountContextProps {
