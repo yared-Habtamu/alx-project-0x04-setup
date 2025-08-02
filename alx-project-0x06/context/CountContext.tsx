@@ -1,3 +1,5 @@
+// const count = useSelector((state: RootState) => state.counter.value)", "const dispatch: AppDispatch = useAppDispatch()"
+
 import { useSelector } from "react-redux";
 import { RootState, useAppDispatch, AppDispatch, increment, decrement } from "@/store/store";
 
